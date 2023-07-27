@@ -12,8 +12,8 @@ app.options('*', cors());
 //open ai
 const { Configuration, OpenAIApi } = require('openai');
 const config = new Configuration({
-    //apiKey: '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',
-    apiKey: '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',
+    
+    apiKey: '',
 });
 const openai = new OpenAIApi(config);
 
